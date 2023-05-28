@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package com.maier.javacore.chapter05;
 
 class SampleSwitch {
@@ -22,30 +21,3 @@ class SampleSwitch {
       }
   }
 }
-
-=======
-package com.maier.javacore.chapter05;
-
-class SampleSwitch {
-  public static void main(String args[]) {
-    for(int i=0; i<6; i++)
-      switch(i) {
-        case 0:
-          System.out.println("i is zero.");
-          break;
-        case 1:
-          System.out.println("i is one.");
-          break;
-        case 2:
-          System.out.println("i is two.");
-          break;
-        case 3:
-          System.out.println("i is three.");
-          break;
-        default:
-          System.out.println("i is greater than 3.");
-      }
-  }
-}
-
->>>>>>> 14106646e2c2880ee80f2cdfe1c68370e7618f78

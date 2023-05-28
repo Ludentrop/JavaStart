@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package com.maier.javacore.chapter05;
 
 class Search {
@@ -19,27 +18,3 @@ class Search {
       System.out.println("Value found!");  
   }  
 }
-
-=======
-package com.maier.javacore.chapter05;
-
-class Search {
-  public static void main(String args[]) {  
-    int nums[] = { 6, 8, 3, 7, 5, 6, 1, 4 }; 
-    int val = 5;  
-    boolean found = false;  
- 
-    // use for-each style for to search nums for val  
-    for(int x : nums) {  
-      if(x == val) {  
-        found = true;  
-        break;  
-      }  
-    }  
-  
-    if(found)   
-      System.out.println("Value found!");  
-  }  
-}
-
->>>>>>> 14106646e2c2880ee80f2cdfe1c68370e7618f78

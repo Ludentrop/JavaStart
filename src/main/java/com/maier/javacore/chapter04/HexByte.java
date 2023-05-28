@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 package com.maier.javacore.chapter04;
 
 class HexByte {
@@ -12,20 +11,3 @@ class HexByte {
     System.out.println("b = 0x" + hex[(b >> 4) & 0x0f] + hex[b & 0x0f]);
   }
 }
-
-=======
-package com.maier.javacore.chapter04;
-
-class HexByte {
-  static public void main(String args[]) {
-    char hex[] = {
-      '0', '1', '2', '3', '4', '5', '6', '7',
-      '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'
-    };
-    byte b = (byte) 0xf1;
-
-    System.out.println("b = 0x" + hex[(b >> 4) & 0x0f] + hex[b & 0x0f]);
-  }
-}
-
->>>>>>> 14106646e2c2880ee80f2cdfe1c68370e7618f78
